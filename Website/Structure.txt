@@ -1,0 +1,44 @@
+GGU resource Hub = ( Home, Filter, Requesite, Join Discord)
+
+(H2) Subjects
+        BEEE
+            (Ac,DC,Transformer...)
+        Eng. Chem
+            (Chemical Boding, Reactivity of Atomic Molecule....)
+        Eng. Math
+            (Diffrential calculus, Integral calculus, Diffrential Enqualtion...)
+        ..... See More
+
+(H2) Batches
+        CS Ist Sem
+        CS IInd Sem
+
+        ECE Ist Sem
+        ECE IInd Sem
+
+        Mech Ist Sem
+        Mech IInd Sem
+        ..... See More
+
+(H2) Previous Year Question
+        2024 Fall Sem
+        2024 Spring Sem
+
+        2023 Fall Sem
+        2023 Spring Sem
+
+        2022 Fall Sem 
+        2022 Spring Sem
+        ..... See More
+
+(H2) Teacher Wise Assigments
+        BEEE
+            (Jiender Sir, ___Mam, _____ Sir)
+
+        Eng. Math 
+            (____ sir, ____ Mam, ___ Sir)
+
+        Eng. Chem
+              (____ sir, ____ Mam, ___ Sir)
+
+        

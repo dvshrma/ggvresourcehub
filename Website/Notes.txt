@@ -1,0 +1,18 @@
+Engineering Chemistry
+1. Unit-1 (Concept of Quantum Energy and Spectroscopy)
+2. Unit-2 (Chemical Bonding in Molecules)
+3. Unit-3 (Concept of Chirality)
+4. Unit-4 (Reactivity of Organic Molecules)
+5. Unit-5 (Strategy for Synthesis of Organic Compounds)
+
+Engineering Math - A 
+Diffrential Calculus
+1. Unit-1
+2. Unit-2 
+Integral calculus 
+3. Unit-3
+Diffrential Equations
+4. Unit-4
+5. Unit-5
+
+
