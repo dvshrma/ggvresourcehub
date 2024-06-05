@@ -1,222 +1,84 @@
- /*color palette
---floral-white: #fffcf2ff;
---timberwolf: #ccc5b9ff;
---black-olive: #403d39ff;
---Grey-slave:  #454545
---eerie-black: #252422ff;
---flame: #eb5e28ff;
-*/
-
-
-/* ul {
-      list-style-type: none;
-} /* Remove default bullets */
-/* li::before {
-    content: "\2022"; /* Unicode character for a bullet (•) */
-  /*  color: #007BFF; /* Optional: Change color */
-   /* display: inline-block;
-    width: 1em; /* Adjust as needed */
-   /* margin-left: -1em;} /* Align with text */
-
-
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
 body {
-    font-family: system-ui,-apple-system,BlinkMacSystemFont,PingFang SC,Microsoft YaHei UI,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-    background-color: #454545;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    background-color: #1f1e20cc;
 }
 
-
-header, footer {
-    background-color: #252422;
-    color: #fffcf2ff;
-    text-align: center;
-    padding: 1em;
-}
-
-.hdng1{
-    text-align: center;
-    color:   #eb5e28ff;
-}
-
-.hdng2{
-    padding-left: 2em;
-    color: #fffcf2ff;
-}
-
-.hdng3{
-    padding-left: 0em;
-    color: #fffcf2ff;
-}
-
-.hdng3::before {
-    content: "»"; /* Unicode character for a bullet (•) */
-    color: #eb5e28ff; /* Optional: Change color */
-    display: inline-block;
-    width: 1.5em; /* Adjust as needed */
-    margin-left: -1em; /* Align with text */
-    
-}
-
-
-.dwn{
+a{
+    color: #ffffff;
     text-decoration: none;
-    color:  #eb5e28ff;
-    padding-left: 3rem;
 }
 
-.ul-dwn{
-     list-style-type: none;
-}
- 
-.dwnli::before {
-    content: "|"; /* Unicode character for a bullet (•) */
-    color: #007BFF ; /* Optional: Change color */
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-weight:bolder;
-    width: 1.5em; /* Adjust as needed */
-    margin-left: -1em; /* Align with text */
-    
-}
-
-
-.dwnli{
-    text-decoration: none;
-    color:#fffcf2ff ; 
-     
-}
-
-
-.dwnli2{
-    padding:1em
-}
-
-a:hover {
-    text-decoration: underline;
-    background-color:  #403d39ff;
-}
-
-
-
-section {
-    max-width: 800px;
-    margin: 2em auto;
-}
-
-
-li {
-    margin-bottom: 1em;
-}
-
-
-
-#ggv{
-    /* padding-right: 8em; */
-    font-weight: bold;
-    margin-right: .5rem;
-    min-width: 20%;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    /* -webkit-flex: 10;
-    flex: 10; */
+li{
+    color: #ffffff;
+    list-style: none;
 }
 
 #nav1{
-    max-width: 2000;
-    margin: 0 auto;
-    list-style-type: none;
-    padding: 0em;
-
-    
+    height: 50px;
+    background-color: #000000;
 }
 
-
-#navul {
-    list-style-type: none;
+#navul{
+    height: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    height: 1em; /* Adjust the height as needed */
+    justify-content: space-around;
 }
 
-.navli {
-    display: inline;
-}
-
-.nava{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    /* margin-top: 10px; */
-    display: inline-block;
-}
-
-hr{
-    width: 80%;
-    margin: 0 auto;
-    
+#ggv>.navli{
+    font-weight: 900;
+    font-size: 20px;
 }
 
 .topics{
+    height: 20%;
+}
+
+.ul-dwn{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-dwn>h2{
+    color: #ffffff;
+    width: 100%;
     text-align: center;
-
+    border: 2px solid black;
+    background-color: #2e2e2ec5;
+    padding: 5px;
+    margin: 1px;
 }
 
-.dwn-tp{
-
-    font-size: large;
-    color: black ;
-    font-weight:500;
+.ul-dwn>li{
+    width: 20%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #2525257b;
+    padding: 5px;
+    margin: 10px;55
 }
-.dwn-tp::before {
-    content: "\⫍"; /* Unicode character for a bullet (•) */
-    color: #eb5e28ff; /* Optional: Change color */
-    display: inline-block;
-    width: 2em; /* Adjust as needed */
-    margin-left: -1em;} /* Align with text */
-
-    .ali{
-        color: black;
-        text-decoration: none;
-        padding: 5px;
-        /* margin-top: 10px; */
-        display: inline-block;
-    }
-    
-
-    .cs-mech-tbl{
-        align-content: cemter;
-        width: 80%;
-        margin: auto;
-        border-collapse:separate;
-     
-    }
 
 
-    .tbl-dwnli2{
-        padding: 0em;
-    }
-    
-    .tbl-dwna{
-        text-decoration: none;
-        color:  #eb5e28ff;
-        padding-left: 0.6em;
-    }
+footer{
+    height: 10%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    th{
-        border: 3px  
-    }
-
-
-    td{
-        align-content: center;
-    }
-    
-    .dthd{
-        font-weight: bold;
-        padding-top: 0.5%;
-    }
+footer>a{
+    margin-left: 10px;
+    color: #f6ff00;
+}
