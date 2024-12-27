@@ -63,6 +63,15 @@ body {
 }
 
 
+.ali{
+    color: floralwhite;
+    text-decoration: none;
+    padding: 5px;
+    /* margin-top: 10px; */
+    display: inline-block;
+}
+
+
 header, footer {
     background-color: #252422;
     color: #fffcf2ff;
@@ -190,13 +199,6 @@ hr{
     width: 2em; /* Adjust as needed */
     margin-left: -1em;} /* Align with text */
 
-    .ali{
-        color: floralwhite;
-        text-decoration: none;
-        padding: 5px;
-        /* margin-top: 10px; */
-        display: inline-block;
-    }
     
 
     .cs-mech-tbl{
